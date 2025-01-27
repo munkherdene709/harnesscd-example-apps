@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_munkherdene709_harnesscd_example_apps_1737995951392-pr-trigger-input-set
+  identifier: Build_munkherdene709_harnesscd_example_apps_1737995951392prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: AzureTest
+  pipeline:
+    identifier: Build_munkherdene709_harnesscd_example_apps_1737995951392
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
